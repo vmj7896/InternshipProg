@@ -1,9 +1,12 @@
 .imageContainer{
     background: url('https://i.postimg.cc/76kStDSv/food-wallpaper.png');
+    height:500px;
+    width:100%;
     border-style: solid ;
-    border-color: white
+    border-color: white;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 body{
     margin: auto;
@@ -17,7 +20,7 @@ body{
     height:150px;
     width:150px;
     margin:auto;
-    border-radius:80%;
+    border-radius:70%;
     margin-top:3%;
     margin-bottom:1.5%;
 }
@@ -30,7 +33,7 @@ body{
 }
 
 .locationSelector{
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 40px;
     text-align: center;
 }
@@ -39,7 +42,7 @@ body{
     width:250px;
     height:50px;
     border-radius: 0%;
-    font-size:15px;
+    font-size:18px;
     border: none;
 }
 
@@ -49,13 +52,13 @@ body{
     width:400px;
     height:50px;
     border-radius:0%;
-    font-size:15px;
-    margin-left:5px
+    font-size:18px;
+    margin-left:10px
 }
 
 .QuickSearchContainer{
-    margin-left:115px;
-    margin-top:50px
+    margin-left:110px;
+    margin-top:170px;
 }
 
 .QuickSearchHeading{
@@ -70,7 +73,7 @@ body{
 .QuickSearchSubHeading{
     text-align:left;
     color: gray;
-    line-height:0.1em;
+    line-height:1em;
     letter-spacing:normal;
     font-size:18px;
     font-weight:normal;
@@ -80,7 +83,7 @@ body{
 
 .tileContainer{
     box-shadow:0 3px 6px black;
-    margin-right:90px;
+    margin-right:140px;
     margin-bottom:40px;
     width:370px;
     height:165px;

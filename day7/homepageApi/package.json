@@ -1,0 +1,19 @@
+{
+  "name": "homeapi",
+  "version": "1.0.0",
+  "description": "this is all about home api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node home.js",
+    "xyz":"nodemon home.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "edureka",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
+
