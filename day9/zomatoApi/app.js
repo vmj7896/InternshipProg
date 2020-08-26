@@ -55,7 +55,7 @@ app.get('/mealtype',(req,res) => {
 
 MongoClient.connect(mongoUrl,(err,client) => {
     if(err) console.log(err)
-    db= client.db('edurekainternship');
+    db= client.db('test');
     app.listen(port,(err) => {
         if(err) throw err;
         console.log(`Server is running on port ${port}`)

@@ -42,7 +42,7 @@ app.post('/addMovies',(req,res)=>{
 
 MongoClient.connect(mongourl,(err,client) => {
     if(err) console.log(err);
-    db = client.db('edurekainternship')
+    db = client.db('edurekateam')
     app.listen(port,(err) => {
         if(err) throw err;
         console.log(`Server is running on port ${port}`)
